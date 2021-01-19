@@ -1,0 +1,16 @@
+{
+  "targets": {
+    "witech-web": {
+      "hosting": {
+        "witech-web": [
+          "witech-web"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "witech": "witech-web",
+    "default": "witech-web",
+    "witech-web": "witech-web"
+  }
+}
