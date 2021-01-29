@@ -2,19 +2,22 @@
 .bg {
     /* The image used */
     background-image: url("../../assets/web2.jpg");
+
     /* Full height */
     height: 100%;
-  
+    min-width: 100%;
+
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
-.container {
-    height: 100%;
-    max-width: 100%;
-    position: fixed;
+.row, .container, .container-fluid{
+    background-color: #191e32;
+    color: white;
+
 }
 
 h1,h2,h3,h4,h5{

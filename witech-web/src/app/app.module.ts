@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FrontPageComponent } from './front-page/front-page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from './Components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FrontPageComponent
+    FrontPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
