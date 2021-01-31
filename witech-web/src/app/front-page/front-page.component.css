@@ -1,7 +1,7 @@
 
 .bg {
     /* The image used */
-    background-image: url("../../assets/web2.jpg");
+    background-image: url("../../assets/web2s.jpg");
 
     /* Full height */
     height: 100%;
@@ -14,8 +14,9 @@
     
 }
 
+
 .row, .container, .container-fluid{
-    background-color: #191e32;
+    background-color: #181b2e;
     color: white;
 
 }
@@ -58,4 +59,22 @@ h5{
 .witech{
     font-size: 10px;
     color: rgb(113, 109, 136);
+}
+
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
