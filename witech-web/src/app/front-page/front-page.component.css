@@ -15,14 +15,36 @@
 }
 
 
+.bg2 {
+    /* The image used */
+    background-image: url("../../assets/bg2w2.jpg");
+
+    /* Full height */
+    height: 100%;
+    min-width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
 .row, .container, .container-fluid{
     background-color: #181b2e;
     color: white;
 
 }
 
-h1,h2,h3,h4,h5{
+h1,h2,h3{
     color: white;
+}
+
+h4,h5{
+    color: #181b2e;
+    word-spacing: 2px;
+    line-height: 1.6;
 }
 
 h1{
@@ -56,6 +78,28 @@ h5{
     box-shadow: 0px 4px 20px 0px rgb(199, 181, 248);
 }
 
+.btn-2{
+    background-color:#181b2e;
+    box-shadow: 0px 3px 14px 0px rgb(112, 65, 243);
+    border-radius: 4px;
+    border-style: none;
+    color: white;
+    font-style: oblique;
+    font-weight: bold;
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.8s;
+}
+
+.btn-2:hover{
+    transition: 0.8s;
+    padding: 12px;
+    padding-left: 70px;
+    padding-right: 70px;
+    box-shadow: 0px 4px 20px 0px rgb(199, 181, 248);
+}
+
 .witech{
     font-size: 10px;
     color: rgb(113, 109, 136);
@@ -69,6 +113,16 @@ h5{
 	animation-timing-function: ease-in;
 	animation-duration: 2s;
 }
+
+.ml-t{
+    margin-top:340px;
+}
+
+.hidden{
+    display: none;
+}
+
+
 
 @keyframes fadeInOpacity {
 	0% {
