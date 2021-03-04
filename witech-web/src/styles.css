@@ -18,6 +18,10 @@ html{
 	animation-duration: 2s;
 }
 
+button{
+	outline: 0 !important;
+}
+
 @keyframes fadeInOpacity {
 	0% {
 		opacity: 0;

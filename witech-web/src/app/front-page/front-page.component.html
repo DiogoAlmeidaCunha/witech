@@ -34,20 +34,19 @@
             <!-- <div>  <img style="width: 320px;" src="assets/logo1.png"> </div> -->
 
             <h1 class="pb-2" style="color: #181b2e;"> Sobre nos</h1>
-
             <h5 class="mb-5 ">Saiba como é trabalhar connosco,<br> da forma mais rapida e dinamica para concretizar os seus objetivos.</h5>
             
-            <button class=" mb-5 mr-3 btn-2" style="background-image: linear-gradient(#c22ecf, rgb(221, 150, 221));"> Reunião </button>
-            <button class=" mb-5 mr-3 btn-2"> Desenvolvimento </button>
-            <button class=" mb-5 mr-3 btn-2"> Entrega </button>
+            <button id="btn1"  class=" mb-5 mr-3 btn-2" (click)="setWork(1)" style="background-image: linear-gradient(#c22ecf, rgb(221, 150, 221));"> Reunião </button>
+            <button id="btn2" class=" mb-5 mr-3 btn-2" (click)="setWork(2)"> Desenvolvimento </button>
+            <button id="btn3" class=" mb-5 mr-3 btn-2" (click)="setWork(3)"> Entrega </button>
 
         </div>
 
     </div>
 
-    <div id="meeting" class="row justify-content-center align-items-center pb-5" onclick="setWork(1)" style="background-color: white;" >
+    <div id="meeting" class="row justify-content-center align-items-center pb-5"  style="background-color: white;" >
         
-        <div class="col-12 col-md-5 text-center">
+        <div class="col-12 col-md-5 text-center mb-3">
             <img style="width: 410px;" src="assets/w1.png">
         </div>
 
@@ -62,10 +61,10 @@
 
     </div>
 
-    <div id="development" class="row justify-content-center align-items-center pb-5 hidden" onclick="setWork(2)"  style="background-color: white;" >
+    <div id="development" class="row justify-content-center align-items-center pb-5 hidden"   style="background-color: white;" >
         
-        <div class="col-12 col-md-5 text-center">
-            <img style="width: 410px;" src="assets/w2.png">
+        <div class="col-12 col-md-5 text-center mb-4">
+            <img style="width: 380px;" src="assets/w2.png">
         </div>
 
         <div class="col-12 col-md-5 text-center" style="color: #181b2e;">
@@ -80,17 +79,17 @@
 
     </div>
     
-    <div id="delivery" class="row justify-content-center align-items-center pb-5 hidden " onclick="setWork(3)"  style="background-color: white;" >
+    <div id="delivery" class="row justify-content-center align-items-center pb-5 hidden "  style="background-color: white;" >
         
-        <div class="col-12 col-md-5 text-center ">
-            <img style="width: 470px;" src="assets/w3.png">
+        <div class="col-12 col-md-5 text-center mb-3">
+            <img style="width: 530px;" src="assets/w3.png">
         </div>
 
         <div class="col-12 col-md-5 text-center " style="color: #181b2e;">
             
             <h5>
                 Entrega, esta ultima etapa pela qual irá passar, destina-se à entrega final do seu projeto. Garantimos que o seu produto esta pronto
-                a ser
+                a ser utilizado pelos seus clientes.
             </h5> 
 
         </div>
