@@ -7,12 +7,14 @@ import { FrontPageComponent } from './front-page/front-page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './Components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SquareComponent } from './Components/square/square.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FrontPageComponent,
-    FooterComponent
+    FooterComponent,
+    SquareComponent
   ],
   imports: [
     BrowserModule,

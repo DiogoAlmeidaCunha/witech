@@ -31,7 +31,7 @@
 
 .bg3 {
     /* The image used */
-    background-image: url("../../assets/bg3.jpg");
+    background-image: url("../../assets/bg33.jpg");
 
     /* Full height */
     height: 100%;
@@ -64,6 +64,8 @@ h1{
     font-size: 66px;
     color: rgb(255, 255, 255);
 }
+
+
 
 h5{
     color: rgb(184, 176, 201);
@@ -131,19 +133,22 @@ h5{
     margin-top:24%;
 }
 
+
+.hidden{
+    display: none;
+}
+
 @media only screen and (max-width: 605px) {
     
     .ml-t{
         margin-top:410px;
     }
 
+    h1{
+        font-size: 40px;
+        font-weight: bold;
+    }
 }
-
-.hidden{
-    display: none;
-}
-
-
 
 @keyframes fadeInOpacity {
 	0% {
