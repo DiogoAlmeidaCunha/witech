@@ -8,6 +8,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './Components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SquareComponent } from './Components/square/square.component';
+import AOS from 'aos';
+AOS.init();
+
 
 @NgModule({
   declarations: [
