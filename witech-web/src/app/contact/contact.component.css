@@ -1,0 +1,53 @@
+
+.bg {
+    /* The image used */
+    background-image: url("../../assets/bgcontact.jpg");
+
+    /* Full height */
+    min-height: 80%;
+    min-width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+p, div{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 22px;
+}
+
+
+.pink{
+    color: rgb(199, 89, 153);
+}
+
+.mt-d{
+    margin-top: 8%;
+}
+
+@media only screen and (max-width: 645px) {
+    
+    .mt-d{
+        margin-top: 40px;
+    }
+    
+    
+.bg {
+    /* The image used */
+    background-image: url("../../assets/bgcontactmob.jpg");
+
+    /* Full height */
+    min-height: 80%;
+    min-width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+}

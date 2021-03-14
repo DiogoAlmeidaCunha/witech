@@ -9,6 +9,8 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SquareComponent } from './Components/square/square.component';
 import AOS from 'aos';
+import { ContactComponent } from './contact/contact.component';
+import { WebComponent } from './web/web.component';
 AOS.init();
 
 
@@ -17,7 +19,9 @@ AOS.init();
     AppComponent,
     FrontPageComponent,
     FooterComponent,
-    SquareComponent
+    SquareComponent,
+    ContactComponent,
+    WebComponent
   ],
   imports: [
     BrowserModule,

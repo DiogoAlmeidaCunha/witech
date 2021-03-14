@@ -1,0 +1,114 @@
+
+.bg {
+    /* The image used */
+    background-image: url("../../assets/web1.jpg");
+    
+    /*         background-image: linear-gradient(rgb(112, 65, 243),rgb(175, 122, 185));*/ 
+    /* Full height */
+    min-height: 100%;
+    min-width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.bg2 {
+    /* The image used */
+    background-image: url("../../assets/web222.jpg");
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+h1{
+    color: rgb(112, 65, 243);
+    font-size: 90px;
+}
+
+h2{
+    color:  rgb(112, 65, 243);
+    font-size: 70px;
+}
+
+.btn-pink{
+    background-image: linear-gradient( rgb(112, 65, 243), rgb(186, 184, 190));
+    box-shadow: 0px 3px 20px 0px rgb(112, 65, 243);
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    font-style: oblique;
+    font-weight: bold;
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.8s;
+}
+
+.margens-bg1{
+    margin-top: 11%;
+    padding-left: 20%;
+}
+
+.ml-t{
+    margin-top: 25% ;
+}
+
+.card-list{
+    box-shadow: 0px 4px 20px 0px rgba(199, 181, 248, 0.365);
+    border-radius: 4px;
+    padding: 4%;
+    border-top-style: solid;
+  border-top-color: rgb(112, 65, 243)
+}
+
+
+.btn-pink:hover{
+    transition: 0.8s;
+    padding: 12px;
+    padding-left: 70px;
+    padding-right: 70px;
+    box-shadow: 0px 4px 20px 0px rgb(199, 181, 248);
+}
+
+@media only screen and (max-width: 605px) {
+    
+    .bg{
+        background-image: linear-gradient(rgb(112, 65, 243),rgb(175, 122, 185));
+        color: white;
+    }
+
+    .bg2{
+        background-image: none;
+        background-color: white;
+    }
+
+    h1{ color: white; font-size: 70px;}
+
+    h2{ font-size: 55px;}
+
+    .margens-bg1{
+        margin-top: 20%;
+        padding-left: 20%;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    
+    .ml-t{
+        margin-top: 16%;
+    }
+}

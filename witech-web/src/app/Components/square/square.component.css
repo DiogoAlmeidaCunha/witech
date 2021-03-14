@@ -8,6 +8,8 @@
     margin:5px;
     transition: 1s;
     box-shadow: 0px 1px 20px 0px rgb(78, 77, 78);
+    border-top-style: solid;
+    border-top-color: rgb(221, 150, 221)
 }
 
 .bg:hover{
@@ -22,13 +24,17 @@ h2{
     font-weight: bold;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+
+}
 
 
 .btn{
     background-color: rgb(221, 150, 221);
     color: white;
-    position: absolute;
-    top: 76%;
+
 }
 
 .btn:hover{
