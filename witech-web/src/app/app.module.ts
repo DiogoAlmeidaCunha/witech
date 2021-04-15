@@ -10,7 +10,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SquareComponent } from './Components/square/square.component';
 import AOS from 'aos';
 import { ContactComponent } from './contact/contact.component';
-import { WebComponent } from './web/web.component';
+import { WebComponent } from './services/web/web.component';
+import { MobileComponent } from './services/mobile/mobile.component';
+import { PublicityComponent } from './services/publicity/publicity.component';
+import { SocialmediaComponent } from './services/socialmedia/socialmedia.component';
+import { PortfolioComponent } from './services/portfolio/portfolio.component';
 AOS.init();
 
 
@@ -21,7 +25,11 @@ AOS.init();
     FooterComponent,
     SquareComponent,
     ContactComponent,
-    WebComponent
+    WebComponent,
+    MobileComponent,
+    PublicityComponent,
+    SocialmediaComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,

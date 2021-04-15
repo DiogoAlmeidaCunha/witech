@@ -1,6 +1,6 @@
 
 h3,h4,h5{
-    color:rgb(112, 65, 243);
+    color:#3754d2;
     font-weight: bold;
 }
 
@@ -33,7 +33,7 @@ button{
     margin-top:2%;
     padding: 2.4%;
     margin-bottom: 2%;
-    background-color: rgb(112, 65, 243);
+    background-color: #3754d2;
     color: white;
     border-style: none;
     border-width: thin;
@@ -52,8 +52,8 @@ p,h1,h3,li{
 
 button:hover{
     transition:1s;
-    border-color:rgb(112, 65, 243);
-    background-color: rgb(112, 65, 243);;
+    border-color:#3754d2;
+    background-color: #3754d2;;
     opacity: 0.60;
     font-size: 1.8em;
     color: white;

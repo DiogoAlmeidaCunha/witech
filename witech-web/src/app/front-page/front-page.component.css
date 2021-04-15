@@ -52,6 +52,7 @@
 
 h1,h2,h3{
     color: white;
+    
 }
 
 a{
@@ -125,6 +126,7 @@ h5{
     font-size: 10px;
     color: rgb(113, 109, 136);
 }
+
 
 
 .fade-in {
