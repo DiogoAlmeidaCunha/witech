@@ -6,7 +6,7 @@ html{
 
 
 html{
-    background-color: #181b2e;
+    background-color: #ffffff;
     color: white;
 }
 
@@ -31,7 +31,10 @@ button{
 	}
 }
 
+h1,h2,h3,h4,h5{
+    font-family: Clan news,sans-serif;
+}
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-p, button {     font-family: Roboto, "Helvetica Neue", sans-serif;}
+body { margin: 0; font-family: Clan news,sans-serif; }
+p, button {     font-family:Clan news,sans-serif;}
 

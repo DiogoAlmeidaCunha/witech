@@ -15,6 +15,10 @@ import { MobileComponent } from './services/mobile/mobile.component';
 import { PublicityComponent } from './services/publicity/publicity.component';
 import { SocialmediaComponent } from './services/socialmedia/socialmedia.component';
 import { PortfolioComponent } from './services/portfolio/portfolio.component';
+import { DeccerComponent } from './product-pages/deccer/deccer.component';
+import { NfComponent } from './product-pages/nf/nf.component';
+import { TorretomboComponent } from './product-pages/torretombo/torretombo.component';
+import { RelatedWorkComponent } from './Components/related-work/related-work.component';
 AOS.init();
 
 
@@ -29,7 +33,11 @@ AOS.init();
     MobileComponent,
     PublicityComponent,
     SocialmediaComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    DeccerComponent,
+    NfComponent,
+    TorretomboComponent,
+    RelatedWorkComponent
   ],
   imports: [
     BrowserModule,
