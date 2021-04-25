@@ -1,0 +1,139 @@
+
+.bg3{
+    /* The image used */
+    background-image: url("../../assets/bd55.jpg");
+
+    min-height: 380px;
+    min-width: 100%;
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bg4{
+    width: 100%;
+}
+
+.bg-text{
+    background-color: #3754d2;
+}
+
+.text-space{
+    line-height: 2.44;
+}
+
+a{
+    color: white;
+    text-decoration: none;  
+    opacity: 0.8;
+}
+
+h1{
+    color: #3754d2;
+    font-size: 90px;
+}
+
+h2{
+    color: #3754d2;
+    font-size: 70px;
+}
+
+h4{
+    font-size: 60px;
+}
+
+
+h5{
+    color:rgb(169, 174, 216);
+    font-size: 20px;
+}
+
+.btn-pink{
+    background-image: linear-gradient( #3754d2, #162463);
+    box-shadow: 0px 3px 20px 0px #3754d2;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    font-style: oblique;
+    font-weight: bold;
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.8s;
+}
+
+.margens-bg1{
+    margin-top: 11%;
+    padding-left: 20%;
+}
+
+.ml-t{
+    margin-top:12%;
+}
+
+.p-l1{
+    padding: 8%;
+}
+
+.card-list{
+    box-shadow: 0px 4px 20px 0px rgba(199, 181, 248, 0.365);
+    border-radius: 4px;
+    padding: 4%;
+    border-top-style: solid;
+    border-top-color: #3754d2
+}
+
+.card-list:hover{
+    transition: 1s;
+    padding: 12px;
+    padding-left: 70px;
+    padding-right: 70px;
+    cursor: default;
+    box-shadow: 0px 4px 20px 0px #3754d2
+}
+
+.btn-pink:hover{
+    transition: 2s;
+    padding: 12px;
+    padding-left: 70px;
+    padding-right: 70px;
+    box-shadow: 0px 4px 20px 0px rgb(199, 181, 248);
+}
+
+
+@media only screen and (max-width: 605px) {
+    
+    .bg2{
+        background-image: none;
+        background-color: white;
+        
+    }
+
+
+    h1{ color: white; font-size: 70px; text-shadow: 20px 5px 50px #29282844;}
+
+    h2{ font-size: 55px; }
+
+    h4,h5{color: rgb(246, 246, 247);}
+
+
+    
+
+    .margens-bg1{ 
+        margin-top: 20%;
+        padding-left: 20%;
+    }
+
+    .ml-t{
+        margin-top:44%;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    
+    .ml-t{
+        margin-top: 16%;
+    }
+}

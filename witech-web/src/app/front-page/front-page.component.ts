@@ -29,7 +29,7 @@ export class FrontPageComponent implements OnInit {
       element1.classList.remove("hidden");
       element2.classList.add("hidden")
       element3.classList.add("hidden")
-      btn1.style.background = '#c22ecf'
+      btn1.style.background = '#3754d2'
 
     }
 
@@ -37,7 +37,7 @@ export class FrontPageComponent implements OnInit {
       element2.classList.remove("hidden");
       element1.classList.add("hidden")
       element3.classList.add("hidden")
-      btn2.style.background = '#c22ecf'
+      btn2.style.background = '#3754d2'
 
     }
 
@@ -45,7 +45,7 @@ export class FrontPageComponent implements OnInit {
       element3.classList.remove("hidden");
       element1.classList.add("hidden")
       element2.classList.add("hidden")
-      btn3.style.background = '#c22ecf'
+      btn3.style.background = '#3754d2'
 
     }
 

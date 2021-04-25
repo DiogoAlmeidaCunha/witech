@@ -17,8 +17,9 @@ import { SocialmediaComponent } from './services/socialmedia/socialmedia.compone
 import { PortfolioComponent } from './services/portfolio/portfolio.component';
 import { DeccerComponent } from './product-pages/deccer/deccer.component';
 import { NfComponent } from './product-pages/nf/nf.component';
-import { TorretomboComponent } from './product-pages/torretombo/torretombo.component';
 import { RelatedWorkComponent } from './Components/related-work/related-work.component';
+import { DigitarqComponent } from './product-pages/digitarq/digitarq.component';
+
 AOS.init();
 
 
@@ -36,8 +37,8 @@ AOS.init();
     PortfolioComponent,
     DeccerComponent,
     NfComponent,
-    TorretomboComponent,
-    RelatedWorkComponent
+    RelatedWorkComponent,
+    DigitarqComponent
   ],
   imports: [
     BrowserModule,

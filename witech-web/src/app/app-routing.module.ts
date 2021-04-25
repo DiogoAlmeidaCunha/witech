@@ -9,12 +9,13 @@ import { PortfolioComponent} from './services/portfolio/portfolio.component';
 import { PublicityComponent} from './services/publicity/publicity.component';
 import { DeccerComponent} from './product-pages/deccer/deccer.component';
 import { NfComponent} from './product-pages/nf/nf.component';
-import { TorretomboComponent} from './product-pages/torreTombo/torretombo.component';
+import { DigitarqComponent} from './product-pages/digitarq/digitarq.component';
 
 
 const routes: Routes = [
   { path: '', component : FrontPageComponent},
   { path: 'contact' , component: ContactComponent},
+
   { path: 'service/website' , component: WebComponent},
   { path: 'service/mobile' , component: MobileComponent},
   { path: 'service/socialmedia' , component: SocialmediaComponent},
@@ -23,7 +24,7 @@ const routes: Routes = [
 
   { path: 'product-pages/deccer' , component: DeccerComponent},
   { path: 'product-pages/nf' , component: NfComponent},
-  { path: 'product-pages/torretombo' , component: TorretomboComponent}
+  { path: 'product-pages/digitarq' , component: DigitarqComponent}
 
 
 ];

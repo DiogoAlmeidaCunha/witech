@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TorretomboComponent } from './torretombo.component';
+import { DigitarqComponent } from './digitarq.component';
 
-describe('TorretomboComponent', () => {
-  let component: TorretomboComponent;
-  let fixture: ComponentFixture<TorretomboComponent>;
+describe('DigitarqComponent', () => {
+  let component: DigitarqComponent;
+  let fixture: ComponentFixture<DigitarqComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TorretomboComponent ]
+      declarations: [ DigitarqComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TorretomboComponent);
+    fixture = TestBed.createComponent(DigitarqComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

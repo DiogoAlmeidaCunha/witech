@@ -1,7 +1,7 @@
 
 .bg {
     /* The image used */
-    background-image: url("../../assets/bgcontact.jpg");
+    background-image: url("../../assets/bd1.jpg");
 
     /* Full height */
     min-height: 80%;
@@ -20,6 +20,9 @@ p, div{
     font-size: 22px;
 }
 
+.p-ad{
+    padding: 20%;
+}
 
 .pink{
     color: rgb(199, 89, 153);
@@ -35,19 +38,22 @@ p, div{
         margin-top: 40px;
     }
     
+    .p-ad{
+        padding: 11%;
+    }
     
-.bg {
-    /* The image used */
-    background-image: url("../../assets/bgcontactmob.jpg");
+    .bg {
+        /* The image used */
+        background-image: url("../../assets/mobile1.jpg");
 
-    /* Full height */
-    min-height: 80%;
-    min-width: 100%;
+        /* Full height */
+        min-height: 80%;
+        min-width: 100%;
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
 }
