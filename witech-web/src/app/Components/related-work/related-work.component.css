@@ -41,6 +41,7 @@
     
 }
 
+
 .bg4{
     width: 100%;
 }
@@ -138,6 +139,18 @@ h5{
 
 .bg-dg{
     background-image: url("../../../assets/b22.jpg");
+    min-height: 300px;
+    box-shadow: -15px -18px rgb(68, 0, 255);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    display: none;
+    font-size: 44px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.bg-hl{
+    background-image: url("../../../assets/h1.jpg");
     min-height: 300px;
     box-shadow: -15px -18px rgb(68, 0, 255);
     background-repeat: no-repeat;

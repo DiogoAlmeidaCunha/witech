@@ -19,6 +19,8 @@ import { DeccerComponent } from './product-pages/deccer/deccer.component';
 import { NfComponent } from './product-pages/nf/nf.component';
 import { RelatedWorkComponent } from './Components/related-work/related-work.component';
 import { DigitarqComponent } from './product-pages/digitarq/digitarq.component';
+import { HealthComponent } from './product-pages/health/health.component';
+import { NavbarComponent } from './Components/navbar/navbar.component';
 
 AOS.init();
 
@@ -38,7 +40,9 @@ AOS.init();
     DeccerComponent,
     NfComponent,
     RelatedWorkComponent,
-    DigitarqComponent
+    DigitarqComponent,
+    HealthComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

@@ -32,6 +32,38 @@
 
 }
 
+.line img{
+    width: 30px;
+    height: 80px;
+    animation: line 1.7s linear infinite;
+    
+}
+
+.line{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+@keyframes line {
+    0%{
+        transform: translateY(30vh);
+        opacity: 0.6
+    }
+    
+    80%{
+        transform: translateY(56vh);
+        opacity: 0.34;
+    }
+
+    100%{
+        transform: translateY(30vh);
+        opacity: 0.56;
+    }
+}
+
 a{
     text-decoration: none;
     color: white;

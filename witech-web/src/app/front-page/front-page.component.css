@@ -17,7 +17,7 @@
 
 .bg2 {
     /* The image used */
-    background-color: white;
+    background: linear-gradient(to top,white, white);
     /* Full height */
     height: 100%;
     min-width: 100%;
@@ -30,7 +30,7 @@
 
 .bg3 {
     /* The image used */
-    background-image: url("../../assets/bd3.jpg");
+    background: linear-gradient(to top,#3754d2, white);
 
     /* Full height */
     height: 100%;
@@ -44,7 +44,7 @@
 
 .bg4 {
     /* The image used */
-    background-image: url("../../assets/bd41.jpg");
+    background: linear-gradient(to top, #19255a, #3754d2);
 
     /* Full height */
     height: 100%;
@@ -56,6 +56,51 @@
     
 }
 
+.circles img{
+    width: 160px;
+    animation: circle 14s linear infinite;
+    z-index: 100;
+}
+
+.circles-left{
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    left: -70px;
+    position: absolute;
+}
+
+.circles-right{
+    display: flex;
+    align-items: left;
+    justify-content: right;
+    right: 0%;
+    position: absolute;
+}
+
+.circles-left img:nth-child(1){
+    animation-delay: 2s;
+}
+
+@keyframes circle {
+    0%{
+        transform: translateY(0);
+        opacity: 10;
+    }
+    45%{
+        transform: translateY(-80vh);
+        opacity: 0.98;
+    }
+    70%{
+        transform: translateY(-30vh);
+        opacity: 0.85;
+    }
+    100%{
+        transform: translateY(0vh);
+        opacity: 0;
+    }
+}
 
 .row, .container, .container-fluid{
     background-color: #ffffff;
@@ -159,9 +204,24 @@ h5{
     display: none;
 }
 
+.p-large{
+    padding-top: 50px;
+    padding-left: 155px;
+    padding-right: 155px;
+    padding-bottom: 240px;
+}
 
 
-@media only screen and (max-width: 605px) {
+@media only screen and (min-width: 1900px) {
+    .p-large{
+        padding-top: 50px;
+        padding-left: 455px;
+        padding-right: 455px;
+        padding-bottom: 230px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
     
     .m-ad1{
         padding: 15px;
@@ -176,7 +236,22 @@ h5{
         font-weight: bold;
     }
 
-    
+    .p-large{
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 130px;
+    }
+
+    .circles-left{
+        left: -9px;
+    }
+
+    .circles img{
+        width: 90px;
+        height: 90px;
+    }
+
     .bg {
         /* The image used */
         background-image: url("../../assets/mobile1.jpg");

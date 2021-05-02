@@ -10,7 +10,7 @@ import { PublicityComponent} from './services/publicity/publicity.component';
 import { DeccerComponent} from './product-pages/deccer/deccer.component';
 import { NfComponent} from './product-pages/nf/nf.component';
 import { DigitarqComponent} from './product-pages/digitarq/digitarq.component';
-
+import {HealthComponent} from './product-pages/health/health.component';
 
 const routes: Routes = [
   { path: '', component : FrontPageComponent},
@@ -24,7 +24,8 @@ const routes: Routes = [
 
   { path: 'product-pages/deccer' , component: DeccerComponent},
   { path: 'product-pages/nf' , component: NfComponent},
-  { path: 'product-pages/digitarq' , component: DigitarqComponent}
+  { path: 'product-pages/digitarq' , component: DigitarqComponent},
+  { path: 'product-pages/health' , component: HealthComponent}
 
 
 ];

@@ -8,6 +8,8 @@ html{
 html{
     background-color: #ffffff;
     color: white;
+	scroll-behavior: smooth;
+
 }
 
 .fade-in {
