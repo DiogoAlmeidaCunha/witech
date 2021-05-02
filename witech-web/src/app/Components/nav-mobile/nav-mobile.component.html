@@ -1,0 +1,40 @@
+<div class="navbar">
+    
+    <div class="col">
+        <img class="nav-logo" src="../../../assets/fav-w.png">
+    </div>
+
+    <nav id="menu">
+        
+        <ul class="navbar-nav p-2 " style="align-items: center;">
+            <li class="nav-item">
+                <a class="nav-link" href="/#about" (click)="close_click()">SOBRE NÓS</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/#service" (click)="close_click()">SERVIÇOS <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="/product-pages/deccer">PROJETOS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact">CONTACTO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/#">INICIO</a>
+            </li>
+        
+        </ul>
+        
+        <img src="../../assets/cc.png" class="close-icon" (click)="close_click()"> 
+
+    </nav> 
+
+    <div class="col-12 text-right">
+        <img src="../../assets/mm.png" (click)="menu_click()" class="menu-icon">
+    </div>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  

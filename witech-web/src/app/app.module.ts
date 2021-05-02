@@ -21,6 +21,7 @@ import { RelatedWorkComponent } from './Components/related-work/related-work.com
 import { DigitarqComponent } from './product-pages/digitarq/digitarq.component';
 import { HealthComponent } from './product-pages/health/health.component';
 import { NavbarComponent } from './Components/navbar/navbar.component';
+import { NavMobileComponent } from './Components/nav-mobile/nav-mobile.component';
 
 AOS.init();
 
@@ -42,7 +43,8 @@ AOS.init();
     RelatedWorkComponent,
     DigitarqComponent,
     HealthComponent,
-    NavbarComponent
+    NavbarComponent,
+    NavMobileComponent
   ],
   imports: [
     BrowserModule,
