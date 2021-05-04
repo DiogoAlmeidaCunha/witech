@@ -77,6 +77,15 @@ h5{
     padding: 8%;
 }
 
+.tx-space-1{
+    letter-spacing: 0.45vh;
+}
+
+
+.tx-space-0{
+    letter-spacing: 0.20vh;
+}
+
 .card-list{
     box-shadow: 0px 4px 20px 0px rgba(199, 181, 248, 0.365);
     border-radius: 4px;
