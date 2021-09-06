@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-front-page',
@@ -7,9 +9,38 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FrontPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  service(name){
+    if(name == "Websites"){ 
+      this.router.navigate(["/service/website"]);
+      window.scrollTo(0, 0)
+    }
+    else if(name == "Mobile Apps"){ 
+      this.router.navigate(["/service/mobile"]);
+      window.scrollTo(0, 0)
+    }
+    else if(name == "Lojas Online"){ 
+      this.router.navigate(["/service/website"]);
+      window.scrollTo(0, 0)
+    }
+    else if(name == "Marketing"){ 
+      this.router.navigate(["/service/publicity"]);
+      window.scrollTo(0, 0)
+    }
+    else if(name == "Redes Sociais"){ 
+      this.router.navigate(["/service/socialmedia"]);
+      window.scrollTo(0, 0)
+    }
+    else if(name == "Portfolios"){ 
+      this.router.navigate(["/service/portfolio"]);
+      window.scrollTo(0, 0)
+    }
+    
+
   }
 
   setWork(n){

@@ -1,7 +1,7 @@
 
 .bg {
     /* The image used */
-    background-image: url("../../../assets/web1.jpg");
+    background-image: url("../../../assets/web3.png");
     
     /*         background-image: linear-gradient(rgb(112, 65, 243),rgb(175, 122, 185));*/ 
     /* Full height */
@@ -18,7 +18,7 @@
 
 .bg2 {
     /* The image used */
-    background-image: url("../../../assets/web222.jpg");
+    background-image: url("../../../assets/web3.png");
 
 
     /* Center and scale the image nicely */
@@ -174,7 +174,7 @@ h5{
 @media only screen and (max-width: 605px) {
     
     .bg{
-        background-image: url("../../../assets/web1-mob.jpg");
+        background-image: url("../../../assets/web3.png");
         color: white;
     }
 
