@@ -22,6 +22,9 @@ import { DigitarqComponent } from './product-pages/digitarq/digitarq.component';
 import { HealthComponent } from './product-pages/health/health.component';
 import { NavbarComponent } from './Components/navbar/navbar.component';
 import { NavMobileComponent } from './Components/nav-mobile/nav-mobile.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { ServicePageComponent } from './service-page/service-page.component';
+import { TisComponent } from './product-pages/tis/tis.component';
 
 AOS.init();
 
@@ -44,7 +47,10 @@ AOS.init();
     DigitarqComponent,
     HealthComponent,
     NavbarComponent,
-    NavMobileComponent
+    NavMobileComponent,
+    ContactoComponent,
+    ServicePageComponent,
+    TisComponent
   ],
   imports: [
     BrowserModule,

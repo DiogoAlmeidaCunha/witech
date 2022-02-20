@@ -1,0 +1,161 @@
+
+
+.bg {
+    /* The image used */
+    background-image: 
+    linear-gradient(to bottom, rgba(52, 68, 160, 0.158), rgba(40, 19, 117, 0.411)),
+    url("../../../assets/tis1.jpg");
+    background-color: white;
+    /*         background-image: linear-gradient(rgb(112, 65, 243),rgb(175, 122, 185));*/ 
+    /* Full height */
+    min-height: 100%;
+    min-width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg2 {
+    /* The image used */
+    background-image: 
+    linear-gradient(to bottom, rgba(52, 68, 160, 0.158), rgba(40, 19, 117, 0.411)),
+    url("../../../assets/nf1.jpg");
+    background-color: white;
+    /*         background-image: linear-gradient(rgb(112, 65, 243),rgb(175, 122, 185));*/ 
+    /* Full height */
+    min-height: 100%;
+    min-width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.line img{
+    width: 30px;
+    height: 80px;
+    animation: line 1.7s linear infinite;
+    
+}
+
+.line{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+@keyframes line {
+    0%{
+        transform: translateY(30vh);
+        opacity: 0.6
+    }
+    
+    80%{
+        transform: translateY(56vh);
+        opacity: 0.34;
+    }
+
+    100%{
+        transform: translateY(30vh);
+        opacity: 0.56;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1,h2,h3,h4,h5, p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.84;
+}
+
+h1{
+    font-size: 120px;
+    color: white;
+}
+
+
+h2{
+    font-size: 44px;
+    font-weight: bold;
+    color: rgb(32, 15, 80);
+}
+
+h3{
+    font-size: 20px;
+    color: #3754d2;
+}
+
+h4{
+    font-size: 20px;
+    color: #cc66cc;
+}
+
+h5{
+    font-size: 15px;
+    color: #131a3b;
+}
+
+.header-title{
+    margin-top:15%;
+}
+
+.p-l{
+    padding: 170px;
+    padding-top: 10px;
+}
+
+.p-lr{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.img_art1{
+    width: 95%;
+}
+
+
+.btn{
+    color: white;
+    border-color: white;
+    padding: 24px;
+    border-radius: 1px;
+}
+
+@media only screen and (max-width: 605px) {
+
+    h1{
+        font-size: 60px;
+    }    
+
+    .header-title{
+        margin-top:90%;
+    }
+
+    .img_art1{
+        justify-content: middle;
+        width: 95%;
+    }
+
+    .p-l{
+        padding: 40px;
+        padding-top: 10px;
+    
+    }
+
+    .p-lr{
+        padding: 40px;
+        padding-top: 10px;
+    
+    }
+    
+}
